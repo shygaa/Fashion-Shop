@@ -1,0 +1,495 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    padding: 20px 0;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 42px;
+    color: #22262A;
+}
+
+.menu-list_item {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.fa-heart {
+    margin: 0 20px;
+}
+
+#hero {
+    background: url("../Image/heroImages/heroBg.png");
+    min-height: 745px;
+}
+
+.hero-item {
+    position: relative;
+    min-height: 745px;
+}
+
+.hero-item_content {
+    position: absolute;
+    right: 230px;
+    bottom: 100px;
+}
+
+.new-trand {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+
+.hero-description {
+    display: block;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.hero-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #22262A;
+    padding: 5px 30px;
+    margin-right: 35px;
+}
+
+#category {
+    padding-top: 120px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.category-image-men {
+    width: 100%;
+}
+
+#category .row {
+    margin: 0 -15px;
+}
+
+.female-img {
+    display: flex;
+    margin: 20px -12px 0 -12px;
+}
+
+.female-img_col-6 {
+    width: 50%;
+    padding: 0 12px;
+}
+
+.category-image-women {
+    width: 100%;
+}
+
+.category-name_box {
+    background: #00000050 url("../Image/category/categoryNameBg.png");
+    background-blend-mode: darken;
+    position: relative;
+    height: 570px;
+    top: -4px;
+}
+
+.category-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+    background: #FFFFFF;
+    padding: 5px 25px;
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+}
+
+#womens,  #mens {
+    padding-top: 115px;
+}
+
+.womens-title {
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+}
+
+.womens-desc {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+    margin-bottom: 65px;
+}
+
+#womens .row {
+    margin: 0 -10px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 10px;
+}
+
+.womens-catalog_img {
+    width: 100%;
+}
+
+.womens-product_desc {
+    margin-top: 40px;
+}
+
+.product-item_desc {
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.product-item_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.product_pricing {
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.old-price {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.new-price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #d62b14;
+}
+
+#avone-styles {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.styles-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #22262A;
+}
+
+.styles-desc {
+    display: block;
+    margin: 15px 0 60px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #22262A;
+}
+
+#avone-styles .row {
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.styles-img_left {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.styles-img_right {
+    width: 100%;
+}
+
+.show-dress {
+    position: relative;
+    min-height: 280px;
+}
+
+.show-img {
+    position: absolute;
+    right: -40px;
+    padding: 20px 0 0 25px;
+    top: -67px;
+    background: #FFF;
+}
+
+.show-desc {
+    position: absolute;
+    top: 170px;
+    left: 135px;
+    border-bottom: 1px solid #000;
+}
+
+#tachen {
+    background: url("../Image/tachen/bg.png");
+    min-height: 750px;
+
+}
+
+.tachen-content {
+    min-height: 750px;
+    position: relative;
+}
+
+.tachen-item {
+    position: absolute;
+    bottom: 130px;
+    left: 230px;
+}
+
+.tachen-desc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.tachen-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    color: #22262A;
+}
+.tachen-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #000;
+    padding: 5px 25px;
+    transition: all ease-in-out .3s;
+}
+
+.tachen-link:hover {
+    background: #e7f6f9;
+    border: 1px solid #fff;
+    color: #000;
+}
+
+#feedback {
+    padding-top: 115px;
+    padding-bottom: 110px;
+    background: #F2F8FC;
+}
+
+.feedback-desc {
+    width: 400px;
+    display: block;
+    margin: 17px 0 40px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.feedback-location {
+    display: inline-block;
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.email {
+    width: 240px;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    margin: 16px 0 5px 0;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    border-bottom: 1px solid #000;
+}
+
+.index {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+.feedback-social {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.email-updates {
+    display: inline-block;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A;
+}
+
+#email {
+    width: 100%;
+    padding: 10px 0 10px 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#email::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
+
+[for='email'] {
+    position: relative;
+}
+
+.feedback-send_request {
+    position: absolute;
+    border: none;
+    background: transparent;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    cursor: pointer;
+}
+
+.feedback-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.feedback-nav_item {
+    list-style: none;
+}
+
+.feedback-nav_title {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22262A;
+}
+
+.feedback-nav_link {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #E7F5F8;
+    padding: 36px 0;
+}
+
+.footer-desc {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #22262A;
+}
